@@ -1,7 +1,6 @@
-public class TesteIfIR {
+public class TesteIfIR8 {
 
     public static void main(String[] args) {
-
         double salario = 3300.0;
 
         if (salario >= 1900.0 && salario <= 2800.0) {
@@ -13,7 +12,6 @@ public class TesteIfIR {
         } else {
             System.out.println("Você é isento do IR!");
         }
-
     }
 
 }
