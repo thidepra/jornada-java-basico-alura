@@ -1,4 +1,4 @@
-public class TestaConversao {
+public class TestaConversao3 {
 
     public static void main(String[] args) {
         double salario = 1270.50;

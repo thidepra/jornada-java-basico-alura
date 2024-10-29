@@ -1,4 +1,4 @@
-public class TestaValores {
+public class TestaValores5 {
 
     public static void main(String[] args) {
         int primeiro = 5;
