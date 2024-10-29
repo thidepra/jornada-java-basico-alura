@@ -1,6 +1,6 @@
-public class TestaSwitch {
-    public static void main(String[] args) {
+public class TestaSwitch9 {
 
+    public static void main(String[] args) {
         int mes = 10;
 
         switch (mes) {
@@ -44,6 +44,5 @@ public class TestaSwitch {
                 System.out.println("Mês inválido");
                 break;
         }
-
     }
 }
