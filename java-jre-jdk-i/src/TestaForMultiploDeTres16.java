@@ -1,7 +1,6 @@
-public class TestaForMultiploDe3 {
+public class TestaForMultiploDeTres16 {
 
     public static void main(String[] args) {
-
         System.out.print("Os números múltiplos de 3 são: ");
 
         for (int numero = 1; numero <= 100; numero++) {
