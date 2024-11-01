@@ -6,6 +6,40 @@ public class Conta {
     //Cliente titular = new Cliente();
     Cliente titular;
 
+    /*setSaldo precisa? Não, pois o saldo não deve ser alterado num passe de
+    mágica. Nesse caso os metódos deposita, saca e transfere já sõa responsáveis
+    por alterar o saldo.*/
+
+    //get para poder pegar o valor do atributo privado saldo
+    public double getSaldo(){
+        return this.saldo;
+    }
+
+
+    public int getAgencia() {
+        return agencia;
+    }
+
+    public void setAgencia(int agencia) {
+        this.agencia = agencia;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public Cliente getTitular() {
+        return titular;
+    }
+
+    public void setTitular(Cliente titular) {
+        this.titular = titular;
+    }
+
     public void deposita(double valor) {
         this.saldo += valor;
     }
@@ -27,12 +61,4 @@ public class Conta {
         return false;
     }
 
-    //get para poder pegar o valor do atributo privado saldo
-    public double getSaldo(){
-        return this.saldo;
-    }
-
-    /*setSaldo precisa? Não, pois o saldo não deve ser alterado num passe de
-    mágica. Nesse caso os metódos deposita, saca e transfere já sõa responsáveis
-    por alterar o saldo.*/
 }
