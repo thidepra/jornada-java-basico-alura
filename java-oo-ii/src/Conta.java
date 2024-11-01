@@ -1,9 +1,10 @@
 public class Conta {
-
     private double saldo;
-    int agencia;
-    int numero;
-    Cliente titular; //posso criar direto o cliente toda vez que criar uma conta: Cliente titular = new Cliente();
+    private int agencia;
+    private int numero;
+    //cria direto o cliente toda vez que criar uma conta
+    //Cliente titular = new Cliente();
+    Cliente titular;
 
     public void deposita(double valor) {
         this.saldo += valor;
@@ -34,6 +35,4 @@ public class Conta {
     /*setSaldo precisa? Não, pois o saldo não deve ser alterado num passe de
     mágica. Nesse caso os metódos deposita, saca e transfere já sõa responsáveis
     por alterar o saldo.*/
-
-
 }
