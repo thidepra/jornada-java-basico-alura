@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59cd6138-2d82-40eb-9d53-5c087b6bf25c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TestaReferencias.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/material_theme_project_new.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
@@ -21,19 +22,21 @@
       <change beforePath="$PROJECT_DIR$/../java-jre-jdk-i/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-jre-jdk-i/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-jre-jdk-i/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytebank/bytebank.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytebank/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytebank/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytebank/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytebank/src/TestaBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaBanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytebank/src/TestaContaSemCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaCriaConta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytebank/src/TestaSacaNegativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaSacaNegativo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaCriaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaCriaConta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jornada-java-basico-alura.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -54,28 +57,55 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2o8JFx9PrIYzwtcKUeizz3AHvBC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;curso-dois&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AtomSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TestaCriaConta.executor": "Run",
+    "Application.TestaReferencias.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "curso-dois",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "AtomSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\thian\Developer\Alura\Jornada Backend Java\jornada-java-basico-alura\java-oo-ii\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.TestaReferencias">
+    <configuration name="TestaCriaConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestaCriaConta" />
+      <module name="java-oo-ii" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaReferencias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestaReferencias" />
+      <module name="java-oo-ii" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestaReferencias" />
+        <item itemvalue="Application.TestaCriaConta" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -95,7 +125,8 @@
       <updated>1730245169537</updated>
       <workItem from="1730245170324" duration="732000" />
       <workItem from="1730414299058" duration="95000" />
-      <workItem from="1730414417968" duration="2775000" />
+      <workItem from="1730414417968" duration="3128000" />
+      <workItem from="1730461261248" duration="3195000" />
     </task>
     <servers />
   </component>
