@@ -2,22 +2,17 @@ public class Conta {
     private double saldo;
     private int agencia;
     private int numero;
-    //cria direto o cliente toda vez que criar uma conta
-    //Cliente titular = new Cliente();
     Cliente titular;
 
-    /*setSaldo precisa? Não, pois o saldo não deve ser alterado num passe de
-    mágica. Nesse caso os metódos deposita, saca e transfere já sõa responsáveis
-    por alterar o saldo.*/
+    public Conta() {
+    }
 
-    //get para poder pegar o valor do atributo privado saldo
-    public double getSaldo(){
+    public double getSaldo() {
         return this.saldo;
     }
 
-
     public int getAgencia() {
-        return agencia;
+        return this.agencia;
     }
 
     public void setAgencia(int agencia) {
@@ -25,7 +20,7 @@ public class Conta {
     }
 
     public int getNumero() {
-        return numero;
+        return this.numero;
     }
 
     public void setNumero(int numero) {
@@ -33,32 +28,35 @@ public class Conta {
     }
 
     public Cliente getTitular() {
-        return titular;
+        return this.titular;
     }
 
     public void setTitular(Cliente titular) {
         this.titular = titular;
     }
 
+    //método void não retorna nenhum valor mas pode alterar o estado do objeto, ou seja, alterar os valores dos atributos
     public void deposita(double valor) {
         this.saldo += valor;
     }
 
+    //método com return deve retornar um valor, ou seja, esse valor será usado em alguma operação
     public boolean saca(double valor) {
         if (this.saldo >= valor) {
             this.saldo -= valor;
             return true;
+        } else {
+            return false;
         }
-        return false;
     }
 
     public boolean transfere(double valor, Conta destino) {
         if (this.saldo >= valor) {
-            saca(valor);
+            this.saca(valor);
             destino.deposita(valor);
             return true;
+        } else {
+            return false;
         }
-        return false;
     }
-
 }
