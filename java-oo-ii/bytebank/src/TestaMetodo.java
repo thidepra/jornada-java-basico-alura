@@ -1,21 +1,21 @@
 public class TestaMetodo {
 
     public static void main(String[] args) {
-        Conta contaDoPaulo = new Conta();
+        Conta contaDaBianca = new Conta();
         //não usar atributo direto e sim métodos da classe
         //contaDoPaulo.saldo = 101;
-        contaDoPaulo.deposita(1000);
-        System.out.println("Saldo da conta do Paulo:" + contaDoPaulo.getSaldo());
+        contaDaBianca.deposita(1000);
+        System.out.println("Saldo da conta do Paulo:" + contaDaBianca.getSaldo());
 
-        boolean conseguiuSacar = contaDoPaulo.saca(200);
+        boolean conseguiuSacar = contaDaBianca.saca(200);
         System.out.println("Conseguiu sacar da conta? " + conseguiuSacar);
-        System.out.println("Saldo da conta do Paulo após saque:" + contaDoPaulo.getSaldo());
+        System.out.println("Saldo da conta do Paulo após saque:" + contaDaBianca.getSaldo());
 
-        Conta contaDaMarcela = new Conta();
-        contaDaMarcela.deposita(5000);
-        System.out.println("Saldo da conta da Marcela:" + contaDaMarcela.getSaldo());
+        Conta contaDoPedro = new Conta();
+        contaDoPedro.deposita(5000);
+        System.out.println("Saldo da conta da Marcela:" + contaDoPedro.getSaldo());
 
-        boolean sucessoTransferencia = contaDaMarcela.transfere(3000, contaDoPaulo);
+        boolean sucessoTransferencia = contaDoPedro.transfere(3000, contaDaBianca);
 
         if (sucessoTransferencia) {
             System.out.println("Transferência realizada com sucesso!");
@@ -23,11 +23,11 @@ public class TestaMetodo {
             System.out.println("Falha na transferência!");
         }
 
-        System.out.println("Saldo da conta da Marcela após transferência:" + contaDaMarcela.getSaldo());
-        System.out.println("Saldo da conta do Paulo após transferência:" + contaDoPaulo.getSaldo());
+        System.out.println("Saldo da conta da Marcela após transferência:" + contaDoPedro.getSaldo());
+        System.out.println("Saldo da conta do Paulo após transferência:" + contaDaBianca.getSaldo());
 
-        contaDoPaulo.saca(101);
-        System.out.println("Saque negativo: " + contaDoPaulo.getSaldo());
+        contaDaBianca.saca(101);
+        System.out.println("Saque negativo: " + contaDaBianca.getSaldo());
     }
 
 }
