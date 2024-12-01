@@ -1,4 +1,4 @@
-<h1 align="center"> Jornada do Conhecimento de Backend Java </h1>
+<h1 align="center"> Jornada do Conhecimento de Back-end Java </h1>
 
 <h1>Nível Básico</h1>
 <div align="center">
