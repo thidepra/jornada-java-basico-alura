@@ -35,12 +35,12 @@ public class Conta {
         this.titular = titular;
     }
 
-    //método void não retorna nenhum valor mas pode alterar o estado do objeto, ou seja, alterar os valores dos atributos
+    //metodo void não retorna nenhum valor mas pode alterar o estado do objeto, ou seja, alterar os valores dos atributos
     public void deposita(double valor) {
         this.saldo += valor;
     }
 
-    //método com return deve retornar um valor, ou seja, esse valor será usado em alguma operação
+    //metodo com return deve retornar um valor, ou seja, esse valor será usado em alguma operação
     public boolean saca(double valor) {
         if (this.saldo >= valor) {
             this.saldo -= valor;
