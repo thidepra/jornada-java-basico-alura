@@ -10,15 +10,15 @@ public class TestaComposicaoObjetos {
         contaDaBianca.deposita(1000);
 
         //composição de objetos - contaDaBianca.titular é uma referência para o objeto bianca
-        contaDaBianca.titular = bianca;
-        System.out.println(contaDaBianca.titular.getNome());
-        System.out.println(contaDaBianca.titular);
+        contaDaBianca.setTitular(bianca);;
+        System.out.println(contaDaBianca.getTitular().getNome());
+        System.out.println(contaDaBianca.getTitular());
         System.out.println(bianca);
         //contaDaBianca.titular e bianca são referências para o mesmo objeto
 
         //pode ser feito em uma linha, sem precisar da criação de uma variável
         Conta contaDoPedro = new Conta();
-        contaDoPedro.titular = new Cliente();
+        contaDoPedro.setTitular(new Cliente());
 
     }
 

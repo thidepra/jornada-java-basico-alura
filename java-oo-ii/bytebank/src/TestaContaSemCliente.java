@@ -5,10 +5,10 @@ public class TestaContaSemCliente {
         System.out.println(contaDaMarcela.getSaldo());
 
         //null é o valor padrão de um objeto não inicializado
-        System.out.println(contaDaMarcela.titular);
+        System.out.println(contaDaMarcela.getTitular());
         //null pointer exception, pois a referência titular é null, ou seja, não aponta para nenhum objeto.
-        contaDaMarcela.titular.setNome("Marcela");
-        System.out.println(contaDaMarcela.titular.getNome());
+        contaDaMarcela.getTitular().setNome("Marcela");
+        System.out.println(contaDaMarcela.getTitular().getNome());
     }
 
 }
