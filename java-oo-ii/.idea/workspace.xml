@@ -1,9 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectId" id="2pgQMsWE2E028sdjmuYPa4W6eKD" />
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;AtomSettingsConfigurable&quot;
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abc75d83-b477-484b-a1ee-c93da60beae1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../java-polimorfismo-iii/bytebank/src/CalculadorImposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-polimorfismo-iii/bytebank/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-polimorfismo-iii/bytebank/src/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-polimorfismo-iii/bytebank/src/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-polimorfismo-iii/bytebank/src/ContaPoupanca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-polimorfismo-iii/bytebank/src/SeguroDeVida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-polimorfismo-iii/bytebank/src/TestaTributaveis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-polimorfismo-iii/bytebank/src/TesteContas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-polimorfismo-iii/bytebank/src/Tributavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-jre-jdk-i/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-jre-jdk-i/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thidepra&quot;
   }
 }</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/thidepra/jornada-java-basico-alura.git&quot;,
+    &quot;accountId&quot;: &quot;7769e0cd-4c96-494b-9ce9-23d13853b179&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2pgS1xmMCHxeCO0m0Po5C3c71OU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "curso-tres",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/thian/Developer/Alura/jornada-backend-java-f1rst/jornada-java-basico-alura/java-oo-ii",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "AtomSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thian\Developer\Alura\Jornada Backend Java\jornada-java-basico-alura\java-oo-ii\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abc75d83-b477-484b-a1ee-c93da60beae1" name="Changes" comment="" />
+      <created>1733186014869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733186014869</updated>
+      <workItem from="1733186016728" duration="333000" />
+      <workItem from="1733186519747" duration="32000" />
+      <workItem from="1733786494464" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>
