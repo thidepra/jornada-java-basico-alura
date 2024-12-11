@@ -4,11 +4,9 @@ public abstract class Funcionario {
     private String cpf;
     private double salario;
 
+    //se não tiver o construtor padrão, o java cria um padrão
     public Funcionario() {
     }
-
-    //metodo sem corpo, não há implementação
-    public abstract double getBonificacao();
 
     public String getNome() {
         return nome;
@@ -33,4 +31,7 @@ public abstract class Funcionario {
     public void setSalario(double salario) {
         this.salario = salario;
     }
+
+    //método abstrato e deve ser implementado nas classes filhas
+    public abstract double getBonificacao();
 }

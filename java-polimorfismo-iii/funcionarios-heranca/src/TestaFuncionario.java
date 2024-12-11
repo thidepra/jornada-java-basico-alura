@@ -2,13 +2,13 @@ public class TestaFuncionario {
 
     public static void main(String[] args) {
 
-        Funcionario f1 = new Gerente();
-        f1.setNome("Thiane");
-        f1.setCpf("111.111.111-11");
-        f1.setSalario(2600.00);
+        Funcionario func1 = new Gerente();
+        func1.setNome("Bianca");
+        func1.setCpf("111.111.111-11");
+        func1.setSalario(2600.00);
 
-        System.out.println("Nome: " + f1.getNome());
-        System.out.println("Bonificação: " + f1.getBonificacao());
+        System.out.println("Nome: " + func1.getNome());
+        System.out.println("Bonificação: " + func1.getBonificacao());
     }
 
 }
