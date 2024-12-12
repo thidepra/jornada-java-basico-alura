@@ -32,6 +32,6 @@ public abstract class Funcionario {
         this.salario = salario;
     }
 
-    //método abstrato e deve ser implementado nas classes filhas
+    //metodo abstrato e deve ser implementado nas classes filhas
     public abstract double getBonificacao();
 }

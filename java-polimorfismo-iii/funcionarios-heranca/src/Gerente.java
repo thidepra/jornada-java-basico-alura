@@ -18,8 +18,10 @@ public class Gerente extends Funcionario implements Autenticavel  {
         return this.autenticador.autentica(senha);
     }
 
+    @Override
     public double getBonificacao() {
         System.out.println("Chamando o método de bonificação do Gerente");
+        //usa o super para chamar o método da classe pai, e não o this
         return super.getSalario();
     }
 }
