@@ -1,7 +1,6 @@
 //gerente é um funcionario e herda tudo do Funcionario
 // gerente tbm assina o contrato Autenticavel
 public class Gerente extends Funcionario implements Autenticavel  {
-
     private AutenticacaoUtil autenticador;
 
     public Gerente() {
